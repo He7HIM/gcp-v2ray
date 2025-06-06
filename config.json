@@ -1,29 +1,22 @@
 {
-  "inbounds": [
-    {
-      "port": 8080,
-      "protocol": "vless",
-      "settings": {
-        "clients": [
-          {
-            "id": "77777777-7777-to7e-nete-777777777777",
-            "level": 0
-          }
-        ],
-        "decryption": "none"
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/topnet"
-        }
+  "inbounds": [{
+    "port": 8080,
+    "protocol": "vless",
+    "settings": {
+      "clients": [{
+        "id": "865e13a3-6c00-4690-bbf8-b0ebc41dce3e",
+        "alterId": 0
+      }]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "wsSettings": {
+        "path": "/topnet/"
       }
     }
-  ],
-  "outbounds": [
-    {
-      "protocol": "freedom",
-      "settings": {}
-    }
-  ]
+  }],
+  "outbounds": [{
+    "protocol": "freedom",
+    "settings": {}
+  }]
 }
